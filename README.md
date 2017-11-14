@@ -1,5 +1,7 @@
 # node-currency
 
+[![npm version](https://badge.fury.io/js/%40coinify%2Fcurrency.svg)](https://badge.fury.io/js/%40coinify%2Fcurrency)
+
 ## Installation
 
 Run the following command

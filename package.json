@@ -1,0 +1,38 @@
+{
+  "name": "@coinify/currency",
+  "version": "1.0.0",
+  "description": "Helper functions for managing amounts in different currencies",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive test/bootstrap.test.js ./test",
+    "lint": "eslint --color .",
+    "lint-fix": "eslint --fix .",
+    "build": "npm i && npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoinifySoftware/node-currency.git"
+  },
+  "keywords": [
+    "currency",
+    "coinify",
+    "fiat",
+    "crypto"
+  ],
+  "author": "Jesper Borgstrup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoinifySoftware/node-currency/issues"
+  },
+  "homepage": "https://github.com/CoinifySoftware/node-currency#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@coinify/eslint-config-coinify": "^1.1.5",
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "mocha": "^4.0.1"
+  }
+}

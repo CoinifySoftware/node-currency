@@ -18,7 +18,7 @@ function getDecimalsForCurrency(currency) {
 }
 
 /**
- * Convert an amount of money to the smallest sub-unit of the currency.
+ * Convert an amount of money from the smallest sub-unit of the currency.
  * For example, for a BTC account, this function will convert
  * 12345678 to 0.12345678.
  * Likewise, for a USD account, 12345 is converted to 123.45.

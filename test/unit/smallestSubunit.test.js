@@ -42,6 +42,10 @@ describe('#fromSmallestSubunit / #toSmallestSubunit', () => {
       expect(currency.toSmallestSubunit(12.345678904, 'BTC')).to.equal(1234567890);
       expect(currency.toSmallestSubunit(12.345678905, 'BTC')).to.equal(1234567891);
     });
+
+    it('should convert eth to smallest subunit', () => {
+      expect(currency.toSmallestSubunit(1.000000000009, 'ETH')).to.equal(1000000000009);
+    });
   });
 
 

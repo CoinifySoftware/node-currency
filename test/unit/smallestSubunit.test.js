@@ -1,7 +1,7 @@
 describe('#fromSmallestSubunit / #toSmallestSubunit', () => {
 
   it('should return x for fromSmallestSubunit(toSmallestSubunit(x))', () => {
-    const currencies = ['EUR', 'USD', 'DKK', 'GBP', 'JPY', 'CHF', 'RON', 'BHD', 'IQD', 'BTC'];
+    const currencies = [ 'EUR', 'USD', 'DKK', 'GBP', 'JPY', 'CHF', 'RON', 'BHD', 'IQD', 'BTC' ];
 
     const amount = 12.34;
 
@@ -12,7 +12,7 @@ describe('#fromSmallestSubunit / #toSmallestSubunit', () => {
   });
 
   it('should return x for toSmallestSubunit(fromSmallestSubunit(x))', () => {
-    const currencies = ['EUR', 'USD', 'DKK', 'GBP', 'JPY', 'CHF', 'RON', 'BHD', 'IQD', 'BTC'];
+    const currencies = [ 'EUR', 'USD', 'DKK', 'GBP', 'JPY', 'CHF', 'RON', 'BHD', 'IQD', 'BTC' ];
 
     const amount = 1234;
 

@@ -29,7 +29,7 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "@coinify/eslint-config-coinify": "^1.1.5",
+    "@coinify/eslint-config-coinify": "^1.1.7",
     "chai": "^4.1.2",
     "eslint": "^4.11.0",
     "eslint-plugin-mocha": "^4.11.0",

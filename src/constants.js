@@ -6,8 +6,17 @@ const CURRENCIES_NOT_DIVIDED_IN_HUNDREDS = {
   LYD: 3,
   OMR: 3,
   TND: 3,
-  BTC: 8
+  BTC: 8,
+  ETH: 12 // We use Mwei as lowest subunit for ether because wei (18 decimals) is too much for integer
 };
+
+
+/**
+ * Array of supported crypto currencies
+ *
+ * @type {array}
+ */
+const CRYPTO_CURRENCIES = [ 'BTC', 'ETH' ];
 
 /**
  * Object of all fiat currencies along with their English name
@@ -179,5 +188,5 @@ const FIAT_CURRENCIES = {
 
 module.exports = {
   CURRENCIES_NOT_DIVIDED_IN_HUNDREDS,
-  FIAT_CURRENCIES
+  FIAT_CURRENCIES, CRYPTO_CURRENCIES
 };

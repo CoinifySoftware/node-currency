@@ -140,7 +140,7 @@ function isValidFiatCurrency(code) {
  * @returns {boolean}
  */
 function isValidCryptoCurrency(code) {
-  return code === 'BTC';
+  return constants.CRYPTO_CURRENCIES.includes(code);
 }
 
 module.exports = {

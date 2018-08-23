@@ -16,4 +16,12 @@ describe('#getDecimalsForCurrency', () => {
     expect(currency.getDecimalsForCurrency('BTC')).to.equal(8);
   });
 
+  it('should return 8 for BCH', () => {
+    expect(currency.getDecimalsForCurrency('BCH')).to.equal(8);
+  });
+
+  it('should return 12 for ETH', () => {
+    expect(currency.getDecimalsForCurrency('ETH')).to.equal(12);
+  });
+
 });

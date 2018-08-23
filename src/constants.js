@@ -7,6 +7,7 @@ const CURRENCIES_NOT_DIVIDED_IN_HUNDREDS = {
   OMR: 3,
   TND: 3,
   BTC: 8,
+  BCH: 8,
   ETH: 12 // We use Mwei as lowest subunit for ether because wei (18 decimals) is too much for integer
 };
 
@@ -16,7 +17,7 @@ const CURRENCIES_NOT_DIVIDED_IN_HUNDREDS = {
  *
  * @type {array}
  */
-const CRYPTO_CURRENCIES = [ 'BTC', 'ETH' ];
+const CRYPTO_CURRENCIES = [ 'BTC', 'ETH', 'BCH' ];
 
 /**
  * Object of all fiat currencies along with their English name

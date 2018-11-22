@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/CoinifySoftware/node-currency#readme",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "@coinify/eslint-config-coinify": "^1.1.7",
     "chai": "^4.1.2",
-    "eslint": "^4.11.0",
+    "eslint": "^5.6.1",
     "eslint-plugin-mocha": "^4.11.0",
     "mocha": "^4.0.1"
   }

@@ -6,18 +6,19 @@ const CURRENCIES_NOT_DIVIDED_IN_HUNDREDS = {
   LYD: 3,
   OMR: 3,
   TND: 3,
-  BTC: 8,
-  BCH: 8,
+  BTC: 8, // Satoshi
+  BCH: 8, // Satoshi
+  BSV: 8, // Satoshi
+  XLM: 7, // Stroops
   ETH: 12 // We use Mwei as lowest subunit for ether because wei (18 decimals) is too much for integer
 };
-
 
 /**
  * Array of supported crypto currencies
  *
  * @type {array}
  */
-const CRYPTO_CURRENCIES = [ 'BTC', 'ETH', 'BCH' ];
+const CRYPTO_CURRENCIES = [ 'BTC', 'ETH', 'BCH', 'BSV', 'XLM' ];
 
 /**
  * Object of all fiat currencies along with their English name

@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-const constants = require('./constants');
+const constants = require('./currencies.json');
 
 /**
  * Returns the number of decimals after the floating point, with which
@@ -14,7 +14,7 @@ function getDecimalsForCurrency(currency) {
     throw new Error(`Invalid currency '${currency}'`);
   }
 
-  return _.get(constants.CURRENCIES_NOT_DIVIDED_IN_HUNDREDS, currency, 2);
+  return constants[currency].decimals;
 }
 
 /**
@@ -118,7 +118,7 @@ function computeRateBetweenSubunitAmounts(fromCurrency, fromAmount, toCurrency, 
  * @returns {boolean}
  */
 function isValidCurrency(code) {
-  return isValidFiatCurrency(code) || isValidCryptoCurrency(code);
+  return constants[code]!==undefined;
 }
 
 /**
@@ -128,7 +128,7 @@ function isValidCurrency(code) {
  * @returns {boolean}
  */
 function isValidFiatCurrency(code) {
-  return _.has(constants.FIAT_CURRENCIES, code);
+  return isValidCurrency(code) && !constants[code].crypto;
 }
 
 /**
@@ -140,7 +140,7 @@ function isValidFiatCurrency(code) {
  * @returns {boolean}
  */
 function isValidCryptoCurrency(code) {
-  return constants.CRYPTO_CURRENCIES.includes(code);
+  return isValidCurrency(code) && constants[code].crypto;
 }
 
 module.exports = {

@@ -38,6 +38,7 @@
   "CUP": { "name":"Cuban Peso",                           "decimals":2, "crypto":false },
   "CVE": { "name":"Cape Verdean Escudo",                  "decimals":2, "crypto":false },
   "CZK": { "name":"Czech Republic Koruna",                "decimals":2, "crypto":false },
+  "DASH": { "name":"DASH",                                "decimals":8, "crypto":true  },
   "DJF": { "name":"Djiboutian Franc",                     "decimals":2, "crypto":false },
   "DKK": { "name":"Danish Krone",                         "decimals":2, "crypto":false },
   "DOP": { "name":"Dominican Peso",                       "decimals":2, "crypto":false },

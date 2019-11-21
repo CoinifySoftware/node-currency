@@ -103,6 +103,7 @@
   "MYR": { "name":"Malaysian Ringgit",                    "decimals":2, "crypto":false },
   "MZN": { "name":"Mozambican Metical",                   "decimals":2, "crypto":false },
   "NAD": { "name":"Namibian Dollar",                      "decimals":2, "crypto":false },
+  "NANO": { "name": "Nano",                               "decimals":12, "crypto":true },
   "NGN": { "name":"Nigerian Naira",                       "decimals":2, "crypto":false },
   "NIO": { "name":"Nicaraguan Córdoba",                   "decimals":2, "crypto":false },
   "NOK": { "name":"Norwegian Krone",                      "decimals":2, "crypto":false },

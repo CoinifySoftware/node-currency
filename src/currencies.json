@@ -109,6 +109,7 @@
   "NOK": { "name":"Norwegian Krone",                      "decimals":2, "crypto":false },
   "NPR": { "name":"Nepalese Rupee",                       "decimals":2, "crypto":false },
   "NZD": { "name":"New Zealand Dollar",                   "decimals":2, "crypto":false },
+  "OKB": { "name":"OKI",                                  "decimals":12, "crypto":true },
   "OMR": { "name":"Omani Rial",                           "decimals":3, "crypto":false },
   "PAB": { "name":"Panamanian Balboa",                    "decimals":2, "crypto":false },
   "PEN": { "name":"Peruvian Nuevo Sol",                   "decimals":2, "crypto":false },

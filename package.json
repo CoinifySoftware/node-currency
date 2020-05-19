@@ -1,6 +1,6 @@
 {
   "name": "@coinify/currency",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Helper functions for managing amounts in different currencies",
   "main": "src/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/CoinifySoftware/node-currency#readme",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@coinify/eslint-config-coinify": "^1.1.7",

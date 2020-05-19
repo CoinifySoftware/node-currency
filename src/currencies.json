@@ -119,7 +119,7 @@
   "NOK": { "name":"Norwegian Krone",                      "decimals":2, "crypto":false },
   "NPR": { "name":"Nepalese Rupee",                       "decimals":2, "crypto":false },
   "NZD": { "name":"New Zealand Dollar",                   "decimals":2, "crypto":false },
-  "OKB": { "name":"OKB",                                  "decimals":8, "crypto":true },
+  "OKB": { "name":"OKB",                                  "decimals":12, "crypto":true },
   "OMG": { "name":"OmiseGo",                              "decimals":8, "crypto":true },
   "OMR": { "name":"Omani Rial",                           "decimals":3, "crypto":false },
   "PAB": { "name":"Panamanian Balboa",                    "decimals":2, "crypto":false },

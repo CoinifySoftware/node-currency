@@ -118,7 +118,7 @@ function computeRateBetweenSubunitAmounts(fromCurrency, fromAmount, toCurrency, 
  * @returns {boolean}
  */
 function isValidCurrency(code) {
-  return constants[code]!==undefined;
+  return constants[code] !== undefined;
 }
 
 /**
@@ -143,6 +143,14 @@ function isValidCryptoCurrency(code) {
   return isValidCurrency(code) && constants[code].crypto;
 }
 
+function formatAmount(amount, currency) {
+  const decimals = getDecimalsForCurrency(currency);
+  return fromSmallestSubunit(amount, currency).toLocaleString('en-US', {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals
+  });
+}
+
 module.exports = {
   getDecimalsForCurrency,
   fromSmallestSubunit,
@@ -152,5 +160,6 @@ module.exports = {
 
   isValidCurrency,
   isValidFiatCurrency,
-  isValidCryptoCurrency
+  isValidCryptoCurrency,
+  formatAmount
 };

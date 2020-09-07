@@ -131,6 +131,7 @@
   "PLN": { "name":"Polish Zloty",                         "decimals":2, "crypto":false },
   "PYG": { "name":"Paraguayan Guarani",                   "decimals":2, "crypto":false },
   "QAR": { "name":"Qatari Rial",                          "decimals":2, "crypto":false },
+  "QTUM": { "name":"Qtum",                                "decimals":8, "crypto":true },
   "RON": { "name":"Romanian Leu",                         "decimals":2, "crypto":false },
   "RSD": { "name":"Serbian Dinar",                        "decimals":2, "crypto":false },
   "RUB": { "name":"Russian Ruble",                        "decimals":2, "crypto":false },

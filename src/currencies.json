@@ -47,6 +47,7 @@
   "DKK": { "name":"Danish Krone",                         "decimals":2, "crypto":false },
   "DOGE": { "name":"Dogecoin",                            "decimals":8, "crypto":true },
   "DOP": { "name":"Dominican Peso",                       "decimals":2, "crypto":false },
+  "DOT": { "name":"Polkadot",                             "decimals":10, "crypto":true },
   "DZD": { "name":"Algerian Dinar",                       "decimals":2, "crypto":false },
   "EGP": { "name":"Egyptian Pound",                       "decimals":2, "crypto":false },
   "ERN": { "name":"Eritrean Nakfa",                       "decimals":2, "crypto":false },

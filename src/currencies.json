@@ -156,7 +156,7 @@
   "TMT": { "name":"Turkmenistani Manat",                  "decimals":2, "crypto":false },
   "TND": { "name":"Tunisian Dinar",                       "decimals":3, "crypto":false },
   "TOP": { "name":"Tongan Paʻanga",                       "decimals":2, "crypto":false },
-  "TRX": { "name":"Tron",                                 "decimals":8, "crypto":true },
+  "TRX": { "name":"Tron",                                 "decimals":6, "crypto":true },
   "TRY": { "name":"Turkish Lira",                         "decimals":2, "crypto":false },
   "TTD": { "name":"Trinidad and Tobago Dollar",           "decimals":2, "crypto":false },
   "TUSD": { "name":"TrueUSD",                             "decimals":8, "crypto":true },

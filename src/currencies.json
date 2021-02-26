@@ -32,6 +32,7 @@
   "BZD": { "name":"Belize Dollar",                        "decimals":2, "crypto":false },
   "CAD": { "name":"Canadian Dollar",                      "decimals":2, "crypto":false },
   "CDF": { "name":"Congolese Franc",                      "decimals":2, "crypto":false },
+  "CEL": { "name":"Celsius",                              "decimals":12, "crypto":true },
   "CHF": { "name":"Swiss Franc",                          "decimals":2, "crypto":false },
   "CLF": { "name":"Chilean Unit of Account (UF)",         "decimals":2, "crypto":false },
   "CLP": { "name":"Chilean Peso",                         "decimals":2, "crypto":false },

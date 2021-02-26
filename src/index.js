@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const round = require('lodash/round');
 
 const constants = require('./currencies.json');
 
@@ -31,7 +31,7 @@ function getDecimalsForCurrency(currency) {
  */
 function fromSmallestSubunit(amount, currency) {
   const decimals = getDecimalsForCurrency(currency);
-  return _.round(amount / Math.pow(10, decimals), decimals);
+  return round(amount / Math.pow(10, decimals), decimals);
 }
 
 

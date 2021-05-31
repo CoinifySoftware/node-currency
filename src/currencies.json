@@ -167,6 +167,7 @@
   "TZS": { "name":"Tanzanian Shilling",                   "decimals":2, "crypto":false },
   "UAH": { "name":"Ukrainian Hryvnia",                    "decimals":2, "crypto":false },
   "UGX": { "name":"Ugandan Shilling",                     "decimals":2, "crypto":false },
+  "UMA": { "name":"UMA",                                  "decimals":12, "crypto":true },
   "USD": { "name":"United States Dollar",                 "decimals":2, "crypto":false },
   "USDC": { "name":"USD coin",                            "decimals":8, "crypto":true },
   "USDT": { "name":"Tether ERC-20",                       "decimals":8, "crypto":true },

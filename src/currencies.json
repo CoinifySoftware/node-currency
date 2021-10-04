@@ -18,6 +18,7 @@
   "BIF": { "name":"Burundian Franc",                      "decimals":2, "crypto":false },
   "BMD": { "name":"Bermudan Dollar",                      "decimals":2, "crypto":false },
   "BNB": { "name":"BNB Mainnet",                          "decimals":8, "crypto":true },
+  "BNBBSC": { "name":"BNB BSC chain",                     "decimals":8, "crypto":true },
   "BND": { "name":"Brunei Dollar",                        "decimals":2, "crypto":false },
   "BOB": { "name":"Bolivian Boliviano",                   "decimals":2, "crypto":false },
   "BRD": { "name":"Bread",                                "decimals":8, "crypto":true },

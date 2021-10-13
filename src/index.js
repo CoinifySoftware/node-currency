@@ -158,6 +158,9 @@ function formatAmount(amount, currency) {
  * @returns {string} name of currency
  */
 function getName(code) {
+  if (!isValidCurrency(code)) {
+    throw new Error(`Invalid currency '${code}'`);
+  }
   return constants[code].name;
 }
 

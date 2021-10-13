@@ -151,6 +151,19 @@ function formatAmount(amount, currency) {
   });
 }
 
+/**
+ * Returns full name of currency by given code
+ *
+ * @param {string} code
+ * @returns {string} name of currency
+ */
+function getName(code) {
+  if (!isValidCurrency(code)) {
+    throw new Error(`Invalid currency '${code}'`);
+  }
+  return constants[code].name;
+}
+
 module.exports = {
   getDecimalsForCurrency,
   fromSmallestSubunit,
@@ -161,5 +174,6 @@ module.exports = {
   isValidCurrency,
   isValidFiatCurrency,
   isValidCryptoCurrency,
-  formatAmount
+  formatAmount,
+  getName
 };

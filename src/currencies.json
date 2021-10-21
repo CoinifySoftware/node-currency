@@ -150,6 +150,7 @@
   "SGD": { "name":"Singapore Dollar",                     "decimals":2, "crypto":false },
   "SHP": { "name":"Saint Helena Pound",                   "decimals":2, "crypto":false },
   "SLL": { "name":"Sierra Leonean Leone",                 "decimals":2, "crypto":false },
+  "SOL": { "name":"Solana",                               "decimals":9, "crypto":true },
   "SOS": { "name":"Somali Shilling",                      "decimals":2, "crypto":false },
   "SRD": { "name":"Surinamese Dollar",                    "decimals":2, "crypto":false },
   "STD": { "name":"São Tomé and Príncipe Dobra",          "decimals":2, "crypto":false },

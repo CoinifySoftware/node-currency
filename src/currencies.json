@@ -179,6 +179,7 @@
   "UYU": { "name":"Uruguayan Peso",                       "decimals":2, "crypto":false },
   "UZS": { "name":"Uzbekistan Som",                       "decimals":2, "crypto":false },
   "VEF": { "name":"Venezuelan Bolívar Fuerte",            "decimals":2, "crypto":false },
+  "VGX": { "name":"Voyager Token",                        "decimals":8, "crypto":true },
   "VND": { "name":"Vietnamese Dong",                      "decimals":2, "crypto":false },
   "VUV": { "name":"Vanuatu Vatu",                         "decimals":2, "crypto":false },
   "WST": { "name":"Samoan Tala",                          "decimals":2, "crypto":false },

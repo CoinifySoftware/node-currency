@@ -1,4 +1,5 @@
 {
+  "ADA": { "name":"ADA Cardano",                          "decimals":6, "crypto":true },
   "AED": { "name":"United Arab Emirates Dirham",          "decimals":2, "crypto":false },
   "AFN": { "name":"Afghanistan Afghani",                  "decimals":2, "crypto":false },
   "ALL": { "name":"Albanian Lek",                         "decimals":2, "crypto":false },

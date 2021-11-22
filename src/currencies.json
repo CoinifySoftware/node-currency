@@ -57,7 +57,7 @@
   "DZD": { "name":"Algerian Dinar",                       "decimals":2, "crypto":false },
   "DYDX": { "name":"dYdX ERC-20",                         "decimals":18, "crypto":true },
   "EGP": { "name":"Egyptian Pound",                       "decimals":2, "crypto":false },
-  "ENJ": { "name":"Enjin Coin ERC-20",                            "decimals":18, "crypto":true },
+  "ENJ": { "name":"Enjin Coin ERC-20",                    "decimals":18, "crypto":true },
   "ERN": { "name":"Eritrean Nakfa",                       "decimals":2, "crypto":false },
   "ETB": { "name":"Ethiopian Birr",                       "decimals":2, "crypto":false },
   "ETC": { "name":"Ethereum Classic",                     "decimals":8, "crypto":true },

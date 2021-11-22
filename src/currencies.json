@@ -66,7 +66,7 @@
   "FJD": { "name":"Fijian Dollar",                        "decimals":2, "crypto":false },
   "FKP": { "name":"Falkland Islands Pound",               "decimals":2, "crypto":false },
   "FTM": { "name":"Fantom Token ERC-20",                  "decimals":18, "crypto":true },
-  "FTT": { "name":"FarmaTrust Token ERC-20",              "decimals":18, "crypto":true },
+  "FTT": { "name":"FTX Token ERC-20",                     "decimals":18, "crypto":true },
   "GBP": { "name":"British Pound Sterling",               "decimals":2, "crypto":false },
   "GEL": { "name":"Georgian Lari",                        "decimals":2, "crypto":false },
   "GHS": { "name":"Ghanaian Cedi",                        "decimals":2, "crypto":false },

@@ -156,6 +156,7 @@
   "SDG": { "name":"Sudanese Pound",                       "decimals":2, "crypto":false },
   "SEK": { "name":"Swedish Krona",                        "decimals":2, "crypto":false },
   "SGD": { "name":"Singapore Dollar",                     "decimals":2, "crypto":false },
+  "SHIB": { "name": "Shiba Inu ERC-20",                   "decimals": 18, "crypto": true },
   "SHP": { "name":"Saint Helena Pound",                   "decimals":2, "crypto":false },
   "SLL": { "name":"Sierra Leonean Leone",                 "decimals":2, "crypto":false },
   "SOL": { "name":"Solana",                               "decimals":9, "crypto":true },

@@ -142,6 +142,7 @@
   "PHP": { "name":"Philippine Peso",                      "decimals":2, "crypto":false },
   "PKR": { "name":"Pakistani Rupee",                      "decimals":2, "crypto":false },
   "PLN": { "name":"Polish Zloty",                         "decimals":2, "crypto":false },
+  "POLYGON": { "name":"Polygon (Matic)",                  "decimals":18, "crypto:":true },
   "PYG": { "name":"Paraguayan Guarani",                   "decimals":2, "crypto":false },
   "QAR": { "name":"Qatari Rial",                          "decimals":2, "crypto":false },
   "QNT": { "name":"Quant ERC-20",                         "decimals":18, "crypto":true },

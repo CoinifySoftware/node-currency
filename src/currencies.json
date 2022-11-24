@@ -63,6 +63,7 @@
   "ETB": { "name":"Ethiopian Birr",                       "decimals":2, "crypto":false },
   "ETC": { "name":"Ethereum Classic",                     "decimals":8, "crypto":true },
   "ETH": { "name":"Ethereum",                             "decimals":12,"crypto":true  },
+  "ETHW": { "name":"Ethereum POW",                        "decimals":12,"crypto":true  },
   "EUR": { "name":"Euro",                                 "decimals":2, "crypto":false },
   "FJD": { "name":"Fijian Dollar",                        "decimals":2, "crypto":false },
   "FKP": { "name":"Falkland Islands Pound",               "decimals":2, "crypto":false },

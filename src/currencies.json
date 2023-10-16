@@ -171,6 +171,7 @@
   "SVC": { "name":"Salvadoran Colón",                     "decimals":2, "crypto":false },
   "SYP": { "name":"Syrian Pound",                         "decimals":2, "crypto":false },
   "SYS": { "name":"Syscoin",                              "decimals":8, "crypto":true },
+  "SYSROLLUX": { "name":"Syscoin on Rollux",              "decimals":8, "crypto":true },
   "SZL": { "name":"Swazi Lilangeni",                      "decimals":2, "crypto":false },
   "THB": { "name":"Thai Baht",                            "decimals":2, "crypto":false },
   "TJS": { "name":"Tajikistani Somoni",                   "decimals":2, "crypto":false },

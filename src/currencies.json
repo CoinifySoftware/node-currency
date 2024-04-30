@@ -178,6 +178,7 @@
   "TJS": { "name":"Tajikistani Somoni",                   "decimals":2, "crypto":false },
   "TMT": { "name":"Turkmenistani Manat",                  "decimals":2, "crypto":false },
   "TND": { "name":"Tunisian Dinar",                       "decimals":3, "crypto":false },
+  "TON": { "name":"Toncoin",                              "decimals":9, "crypto":true },
   "TOP": { "name":"Tongan Paʻanga",                       "decimals":2, "crypto":false },
   "TRX": { "name":"Tron",                                 "decimals":6, "crypto":true },
   "TRY": { "name":"Turkish Lira",                         "decimals":2, "crypto":false },

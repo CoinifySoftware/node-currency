@@ -143,6 +143,16 @@ function isValidCryptoCurrency(code) {
   return isValidCurrency(code) && constants[code].crypto;
 }
 
+/**
+ * Does provided currency code belong to a stablecoin?
+ *
+ * @param {string} code
+ * @returns {boolean | undefined}
+ */
+function isStablecoin(code) {
+  return isValidCurrency(code) ? constants[code].stablecoin : undefined;
+}
+
 function formatAmount(amount, currency) {
   const decimals = getDecimalsForCurrency(currency);
   return fromSmallestSubunit(amount, currency).toLocaleString('en-US', {
@@ -174,6 +184,7 @@ module.exports = {
   isValidCurrency,
   isValidFiatCurrency,
   isValidCryptoCurrency,
+  isStablecoin,
   formatAmount,
   getName
 };

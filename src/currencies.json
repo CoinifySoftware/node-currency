@@ -175,7 +175,7 @@
   "SYSEVM": { "name":"Syscoin on NEVM",                   "decimals":8, "crypto":true, "stablecoin": false },
   "SYSROLLUX": { "name":"Syscoin on Rollux",              "decimals":8, "crypto":true, "stablecoin": false },
   "SZL": { "name":"Swazi Lilangeni",                      "decimals":2, "crypto":false },
-  "TAO": { "name": "Bittensor",                           "decimals":9, "crypto":true, "stablecoin": false },
+  "TAO": { "name": "Bittensor",                           "decimals":18, "crypto":true, "stablecoin": false },
   "THB": { "name":"Thai Baht",                            "decimals":2, "crypto":false },
   "TJS": { "name":"Tajikistani Somoni",                   "decimals":2, "crypto":false },
   "TMT": { "name":"Turkmenistani Manat",                  "decimals":2, "crypto":false },

@@ -228,6 +228,7 @@
   "YER": { "name":"Yemeni Rial",                          "decimals":2, "crypto":false },
   "ZAR": { "name":"South African Rand",                   "decimals":2, "crypto":false },
   "ZEC": { "name":"ZCash",                                "decimals":8, "crypto":true, "stablecoin": false },
+  "ZKJ": { "name":"Polyhedra Network",                    "decimals":8, "crypto":true, "stablecoin": false },
   "ZMW": { "name":"Zambian Kwacha",                       "decimals":2, "crypto":false },
   "ZRX": { "name":"0x Protocol Token",                    "decimals":8, "crypto":true, "stablecoin": false },
   "ZWL": { "name":"Zimbabwean Dollar",                    "decimals":2, "crypto":false }

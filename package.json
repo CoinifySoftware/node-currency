@@ -1,6 +1,6 @@
 {
   "name": "@coinify/currency",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Helper functions for managing amounts in different currencies",
   "main": "src/index.js",
   "scripts": {

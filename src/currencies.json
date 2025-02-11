@@ -84,6 +84,7 @@
   "HRK": { "name":"Croatian Kuna",                        "decimals":2, "crypto":false },
   "HTG": { "name":"Haitian Gourde",                       "decimals":2, "crypto":false },
   "HUF": { "name":"Hungarian Forint",                     "decimals":2, "crypto":false },
+  "ICP": { "name":"ICP",                                  "decimals":8, "crypto":true, "stablecoin": false },
   "IDR": { "name":"Indonesian Rupiah",                    "decimals":2, "crypto":false },
   "ILS": { "name":"Israeli New Sheqel",                   "decimals":2, "crypto":false },
   "INR": { "name":"Indian Rupee",                         "decimals":2, "crypto":false },

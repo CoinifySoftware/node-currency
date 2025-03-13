@@ -200,6 +200,7 @@
   "USDC": { "name":"USD coin ERC-20",                     "decimals":8, "crypto":true, "stablecoin": true },
   "USDCALGO": { "name": "USDC on Algorand",               "decimals":6, "crypto":true, "stablecoin": true },
   "USDCAVAX": { "name": "USDC on Avalanche",              "decimals":6, "crypto":true, "stablecoin": true },
+  "USDCBASE": { "name": "USDC on Base",                   "decimals":6, "crypto":true, "stablecoin": true },
   "USDCBSC": { "name": "USDC on Binance Smart Chain",     "decimals":6, "crypto":true, "stablecoin": true },
   "USDCPOLYGON": { "name": "USDC on Polygon",             "decimals":6, "crypto":true, "stablecoin": true },
   "USDCSOL": { "name":"USD coin on Solana",               "decimals":6, "crypto":true, "stablecoin": true },

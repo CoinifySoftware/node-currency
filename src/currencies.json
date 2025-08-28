@@ -145,7 +145,7 @@
   "PAB": { "name":"Panamanian Balboa",                    "decimals":2, "crypto":false },
   "PAX": { "name":"Paxos Standard Token",                 "decimals":8, "crypto":true, "stablecoin": false },
   "PEN": { "name":"Peruvian Nuevo Sol",                   "decimals":2, "crypto":false },
-  "PENGU": { "name":"Pudgy Penguins",                   "decimals":6, "crypto":true, "stablecoin": false },
+  "PENGUSOL": { "name":"Pudgy Penguins on Solana",        "decimals":6, "crypto":true, "stablecoin": false },
   "PEPE": { "name":"Pepe",                                "decimals":8, "crypto":true, "stablecoin": false },
   "PGK": { "name":"Papua New Guinean Kina",               "decimals":2, "crypto":false },
   "PHP": { "name":"Philippine Peso",                      "decimals":2, "crypto":false },
